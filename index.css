@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: column; /* Stacks the children vertically */
+    justify-content: center;
+    align-items: center; /* Centers children horizontally */
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif; /* A better fallback font */
+}
+
+h1 {
+    color: rgb(248, 201, 11);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#start-game, #new-card {
+    background-color: rgb(248, 201, 11);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: bold; /* Makes the button text stand out */
+}
