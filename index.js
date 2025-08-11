@@ -11,7 +11,7 @@ let sumCount = document.getElementById("sum-count")
 let cardsEl = document.getElementById("cards-el")
 
 function getRandomCard(){
-   let randomNumber = Math.floor(Math.random() * 10)
+   let randomNumber = Math.floor(Math.random() * 10) + 1
    return randomNumber
 }
 
