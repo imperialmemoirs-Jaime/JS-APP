@@ -1,5 +1,6 @@
 body {
-    background-color: green;
+    background-image: url(casino.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column; /* Stacks the children vertically */
     justify-content: center;
@@ -19,11 +20,27 @@ h2 {
     text-align: center;
 }
 
-#start-game, #new-card {
+#message-el {
+    font-style: italic;
+}
+
+#start-game {
     background-color: rgb(248, 201, 11);
+    border: none;
+    border-radius: 2px;
     color: black;
     border: none;
     padding: 10px 20px;
-    margin: 20px;
+    font-weight: bold; /* Makes the button text stand out */
+}
+
+#new-card {
+    background-color: rgb(248, 201, 11);
+    border: none;
+    border-radius: 2px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
     font-weight: bold; /* Makes the button text stand out */
 }

@@ -8,9 +8,12 @@
 </head>
 <body>
     <h1>Blackjack</h1>
-    <h2>You got a Blackjack!</h2> 
-       
-    <button id="start-game">START GAME</button>
-    <button id="new-card">NEW CARD</button>
+    <h2 id="message-el">Want to play a round?</h2> 
+    <h2 id="cards-el">Cards: </h2>
+    <h2 id="sum-count">Sum: </h2>
+    <button id="start-game" onclick="startGame()">START GAME</button>
+    <button id="new-card" onclick="newCard()">NEW CARD</button>
+    <button id="new-card" onclick="resetGame()">RESET</button>
+    <script src="index.js"></script>
 </body>
 </html>
